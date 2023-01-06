@@ -6,13 +6,10 @@ Voyage Youth
 
 
 #### Chance is a JavaScript generator of random [1] strings, numbers, etc.
-<br />
 
 #### Main is a set of functions that control the image animation. At the end there are 2 ways of loading images, from a local folder and hard coding an array for Webflow purposes because we can't specify a file path inside Webflow.
-<br />
 
 #### cLoad adjusts the client height and available space in the browser.
-<br />
 
 
 ### Updating scripts and deploying  
