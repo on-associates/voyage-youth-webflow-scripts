@@ -1,0 +1,75 @@
+*,
+*:after,
+*:before {
+    margin: 0;
+    box-sizing: border-box;
+}
+.info {
+    position: fixed;
+    padding: 5% 8% 5% 5%;
+    width: 100%;
+    background-color: white;
+}
+.border {
+    border: 2px solid #000;
+    padding: 0% 1%;
+    z-index: 100;
+    background-color: white;
+    white-space: nowrap;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+.slides {
+    display: none;
+    width: 100%;
+    height: 120vh;
+}
+.slides-slow {
+    width: 100%;
+}
+@media only screen and (max-width : 700px) {
+    .info {
+        padding: 5%;
+        margin-bottom: 45%;
+    }
+}
+.overlayImg {
+    position: fixed;
+    pointer-events: none;
+    z-index: 100;
+    height: 100px;
+}
+.overlayImg.hidden {
+    display: none;
+}
+.slideShow {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    background-color: white;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.slideShow.hidden {
+    display: none;
+}
+.ss .info {
+    display: none;
+}
+footer {
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+}
+.footer {
+    position: relative;
+    border-top: 1px solid #000;
+    padding: 1.5%;
+    background-color: #f4f4f4;
+}
