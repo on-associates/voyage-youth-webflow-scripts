@@ -7,7 +7,7 @@
 
 Chance is a JavaScript generator of random [1] strings, numbers, etc.
 
-Main holds a set of functions that control the image animation when hovering buttons. At the end there are 2 ways of loading images, from a local folder and hard coding an array for Webflow purposes because we can't specify a file path inside Webflow.
+main.js holds a set of functions that control the random image animation when hovering over buttons. At the bottom of this file are 2 arrays which loading images differently, either from Webflow projects as url's or locally from a folder, which for this case is commented out. For Webflow purposes it has to be a hard coded array because we can't specify a file path to look inside of Webflow assets.
 
 cLoad adjusts the client height and available space in the browser.
 
