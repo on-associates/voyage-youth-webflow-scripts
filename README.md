@@ -19,5 +19,5 @@ cLoad adjusts the client height and available space in the browser.
 These scripts need to be used externally with Webflow, because Webflow has a limitation of 10,000 characters and these javascript files exceed that. Every time you make changes, please remember to update <script src=""></script> tags url, in the steps provided below:
 
 - Select the repository you want to use and copy the url, for example: https://github.com/on-associates/voyage-youth-webflow-scripts/blob/main/chance.min.js 
-- Run through [JSDelivr](https://www.jsdelivr.com/) or [raw.githack](https://raw.githack.com) to create a cdn. 
+- Open this link: raw.githack and paste the url to create a cdn.
 - Insert the production url between the <script src=""></script> tags in Webflow.
